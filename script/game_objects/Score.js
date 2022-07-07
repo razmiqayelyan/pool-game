@@ -13,15 +13,7 @@ Score.prototype.reset = function(){
 };
 
 Score.prototype.draw = function () {
-  Canvas2D.drawText(
-      this.value, 
-      this.position, 
-      this.origin, 
-      "#096834", 
-      "top", 
-      "Impact", 
-      "200px"
-    );
+ 
 };
 
 Score.prototype.drawLines = function (color) {
