@@ -13,7 +13,7 @@ function generateMainMenuLabels(headerText){
             "100px"
         ),
         new Label(
-            "© 2018 Chen Shmilovich", 
+            "Razmik Mikayelyan's Product", 
             new Vector2(1250,700),
             Vector2.zero,
             "white",
@@ -72,7 +72,7 @@ function generateMainMenuButtons(inGame){
         function(){
             if(Game.mainMenu.sound.volume == 0){
                 SOUND_ON = true;
-                Game.mainMenu.sound.volume = 0.8;
+                Game.mainMenu.sound.volume = 0.3;
                 this.sprite = sprites.muteButton;
                 this.hoverSprite = sprites.muteButtonHover;
             }
@@ -92,7 +92,7 @@ function generateMainMenuButtons(inGame){
         sprites.backButton, 
         new Vector2(100,150),
         function(){
-            Game.mainMenu.labels = generateMainMenuLabels("Classic 8-Ball");
+            Game.mainMenu.labels = generateMainMenuLabels("Classic 8-Ball by Razo");
             Game.mainMenu.buttons = generateMainMenuButtons(inGame);
         },
         sprites.backButtonHover
