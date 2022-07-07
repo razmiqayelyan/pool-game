@@ -1,5 +1,9 @@
 "use strict";
 
+
+// my Game
+
+
 function Canvas2D_Singleton() {
     this._canvas = null;
     this._canvasContext = null;
